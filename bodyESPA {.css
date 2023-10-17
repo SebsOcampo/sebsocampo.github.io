@@ -111,7 +111,7 @@ button:hover{
     color: #fff;
     font-size: 2rem;
     margin-bottom: 25px;
-    padding-top: 560px;
+    padding-top: 60px;
     text-align: center;
 }
 .about_paragraph{
@@ -141,6 +141,23 @@ button:hover{
 .about_title{
     color: #fff;
 }
-.knowledge{
+.knowledge_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
 
+}
+.knowledge_picture{
+     max-width: 500px;
+}
+.knowledge_img{
+    width: 100%;
+    display: block;
+}
+.knowledge_paragraph{
+    color: #fff;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 15px;
 }
