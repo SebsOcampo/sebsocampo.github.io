@@ -99,3 +99,10 @@ button:hover span{
 button:hover{
     border: none;
 }
+@media screen and (max-width: 600px)
+{
+    content{
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
