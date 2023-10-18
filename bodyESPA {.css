@@ -176,7 +176,7 @@ button:hover{
     
 }
 .card1{
-    background-image: img(sbas.png);
+    background-image: url(sbas.png);
 }
 .card2{
     background-image: url(jime.png);
